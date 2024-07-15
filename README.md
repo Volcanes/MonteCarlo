@@ -1,9 +1,35 @@
 
 # Montecarlo simulator
 
+El proyecto incluye una Clase MonteCarlo con una función de probabilidad, una atributo input_array que general un array y un output attribute que general una gráfica con los resultados finales
+
+Incluyo un modelo sencillo de beneficios en el cual se puede aplicar MonteCarlo.
 
 
-Este proyecto hace  genera un Montecarlo con un modelo de beneficio de venta de un producto, tomando como variable input el precio del producto y como output el beneficio final
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Volcanes/MonteCarlo
+```
+
+Go to the project directory
+
+```bash
+  cd MonteCarlo
+```
+
+Install dependencies
+
+```bash
+  conda install --yes --file requirements.txt
+```
+
+En el IDE, abrir el archivo benefits.py y correr todo el codigo
+
+
+
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54)
 ## Requirements
